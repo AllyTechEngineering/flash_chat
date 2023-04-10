@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flash_chat/constants.dart';
+import 'package:flash_chat/main.dart';
 
 class RoundedButton extends StatelessWidget {
-  RoundedButton(
-      {super.key,
-      required this.roundedButtonColor,
-      required this.roundedButtonOnPressed,
-      required this.roundedButtonTitle});
+  const RoundedButton({
+    super.key,
+    required this.roundedButtonTitle,
+    required this.roundedButtonColor,
+    required this.roundedButtonOnPressed,
+  });
 
   final Color roundedButtonColor;
   final String roundedButtonTitle;

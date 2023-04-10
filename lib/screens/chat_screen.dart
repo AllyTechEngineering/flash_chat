@@ -3,7 +3,7 @@ import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 
 class ChatScreen extends StatefulWidget {
-  static String identity = 'chat_screen';
+  static String id = 'chat_screen';
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }

@@ -5,7 +5,7 @@ import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 
 class LoginScreen extends StatefulWidget {
-  static String identity = 'login_screen';
+  static String id = 'login_screen';
 
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -88,18 +88,17 @@ class _LoginScreenState extends State<LoginScreen> {
             Padding(
               padding: EdgeInsets.symmetric(vertical: 16.0),
               child: Material(
-                color: Colors.lightBlueAccent,
-                borderRadius: BorderRadius.all(Radius.circular(30.0)),
                 elevation: 5.0,
+                color: Colors.lightBlue,
+                borderRadius: BorderRadius.circular(30.0),
                 child: MaterialButton(
                   onPressed: () {
-                    // '/third': (context) => ChatScreen(),
-                    Navigator.pushNamed(context, ChatScreen.identity);
+                    Navigator.pushNamed(context, ChatScreen.id);
                   },
                   minWidth: 200.0,
                   height: 42.0,
                   child: Text(
-                    'Log In',
+                    "Log In",
                   ),
                 ),
               ),

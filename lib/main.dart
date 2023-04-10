@@ -16,14 +16,14 @@ class FlashChat extends StatelessWidget {
             bodyLarge: TextStyle(color: Colors.black54),
           ),
         ),
-        initialRoute: WelcomeScreen
-            .identity, // '/' is the key for the value WelcomeScreen()
+        initialRoute:
+            WelcomeScreen.id, // '/' is the key for the value WelcomeScreen()
         // routes creates a dart map which is key : value pairs. '/' is just a key for the value WelcomeScreen();
         routes: {
-          WelcomeScreen.identity: (context) => WelcomeScreen(),
-          RegistrationScreen.identity: (context) => RegistrationScreen(),
-          LoginScreen.identity: (context) => LoginScreen(),
-          ChatScreen.identity: (context) => ChatScreen(),
+          WelcomeScreen.id: (context) => WelcomeScreen(),
+          RegistrationScreen.id: (context) => RegistrationScreen(),
+          LoginScreen.id: (context) => LoginScreen(),
+          ChatScreen.id: (context) => ChatScreen(),
         });
   }
 }

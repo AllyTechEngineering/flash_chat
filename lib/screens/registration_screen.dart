@@ -5,7 +5,7 @@ import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 
 class RegistrationScreen extends StatefulWidget {
-  static String identity = 'registration_screen';
+  static String id = 'registration_screen';
   @override
   _RegistrationScreenState createState() => _RegistrationScreenState();
 }
@@ -80,12 +80,20 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             SizedBox(
               height: 24.0,
             ),
-            RoundedButton(
-              roundedButtonColor: Colors.lightBlueAccent,
-              roundedButtonTitle: 'Registration',
-              roundedButtonOnPressed: () {
-                Navigator.pushNamed(context, LoginScreen.identity);
-              },
+            Material(
+              elevation: 5.0,
+              color: Colors.lightBlue,
+              borderRadius: BorderRadius.circular(30.0),
+              child: MaterialButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, LoginScreen.id);
+                },
+                minWidth: 200.0,
+                height: 42.0,
+                child: Text(
+                  "Register",
+                ),
+              ),
             ),
           ],
         ),
