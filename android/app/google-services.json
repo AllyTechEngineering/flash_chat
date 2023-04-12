@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555479679010",
+    "project_id": "flashchatflutter-9c644",
+    "storage_bucket": "flashchatflutter-9c644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555479679010:android:c4835b662d56a5ea414a7b",
+        "android_client_info": {
+          "package_name": "com.allytechllc.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555479679010-2hrsh1f0mp8566arg3h3i0sc8neh1hab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWNieg3J6XXQ90HMQWDXMUrRQPyPbHXTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555479679010-2hrsh1f0mp8566arg3h3i0sc8neh1hab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

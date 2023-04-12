@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flash_chat/constants.dart';
-import 'package:flash_chat/main.dart';
 
 class RoundedButton extends StatelessWidget {
   const RoundedButton({
@@ -12,7 +10,7 @@ class RoundedButton extends StatelessWidget {
 
   final Color roundedButtonColor;
   final String roundedButtonTitle;
-  final Function roundedButtonOnPressed;
+  final Function() roundedButtonOnPressed;
 
   @override
   Widget build(BuildContext context) {
